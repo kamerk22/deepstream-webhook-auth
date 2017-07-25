@@ -1,0 +1,21 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "deepstream webhook authentication demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "deepstream",
+    "authentication",
+    "webhook"
+  ],
+  "author": "Kashyap Merai",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
