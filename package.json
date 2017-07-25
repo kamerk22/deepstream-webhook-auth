@@ -1,26 +1,17 @@
 {
-  "name": "authentication",
+  "name": "deepstream-webhook-auth",
   "version": "1.0.0",
-  "description": "deepstream webhook authentication demo",
+  "description": "Deepstream Webhook Authentication Demo",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [
-    "deepstream",
-    "authentication",
-    "webhook"
-  ],
-  "author": "Kashyap Merai",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamerk22/deepstream-webhook-auth.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/kamerk22/deepstream-webhook-auth/issues"
   },

@@ -4,8 +4,7 @@
   "description": "deepstream auth client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "deepstream",
@@ -15,5 +14,13 @@
   "license": "MIT",
   "dependencies": {
     "deepstream.io-client-js": "^2.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamerk22/deepstream-webhook-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamerk22/deepstream-webhook-auth/issues"
+  },
+  "homepage": "https://github.com/kamerk22/deepstream-webhook-auth#readme"
 }
