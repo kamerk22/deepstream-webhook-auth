@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "deepstream auth client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "deepstream",
+    "webhook"
+  ],
+  "author": "Kashyap Merai",
+  "license": "MIT",
+  "dependencies": {
+    "deepstream.io-client-js": "^2.2.1"
+  }
+}

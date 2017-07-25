@@ -6,7 +6,7 @@ app.use(bodyParser.json());
 
 app.post('/login', (req, res) => {
     if (req.body.authData.username === 'broCode' && req.body.authData.password === 'broCode123') {
-        res.json({
+        res.status(200).json({
             username: 'broCode',
             clientData: {
                 themeColor: 'green'
